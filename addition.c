@@ -5,6 +5,6 @@ int main()
     int sub;
     printf("Enter the 2 number: \n");
     scanf("%d%d", &x, &y);
-    sub = x - y;
-    printf("The subtraction is %d ", sub);
+    sub = x + y;
+    printf("The sum is %d ", sub);
 }

@@ -1,10 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int x,y;
-    int sum;
-    printf("Enter the 2 number: \n");
-    scanf("%d%d",&x,&y);
-    sum=x+y;
-    printf("The sum is %d ",sum);
+    int x, y;
+    int sub;
+    printf("Enter the 1st number:");
+    scanf("%d", &x);
+    printf("Enter the second number:");
+    scanf("%d", &y);
+    sub = x - y;
+    printf("The subtraction is %d ", sub);
 }
