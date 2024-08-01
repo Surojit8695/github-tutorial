@@ -2,9 +2,11 @@
 int main()
 {
     int x, y;
-    int sub;
-    printf("Enter the 2 number: \n");
-    scanf("%d%d", &x, &y);
-    sub = x + y;
-    printf("The sum is %d ", sub);
+    int sum;
+    printf("Enter the 1st number: ");
+    scanf("%d", &x);
+    printf("Enter the 2nd number: ");
+    scanf("%d", &y);
+    sum = x + y;//addition condition
+    printf("The sum is %d ", sum);
 }
